@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  font-size: 18px; /* Base font size increased for better visibility */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc; /* slate-50 */
+  color: #0f172a; /* slate-900 */
+}
+
+/* Custom size overrides for clarity */
+.text-huge {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.text-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

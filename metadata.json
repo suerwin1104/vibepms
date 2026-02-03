@@ -1,0 +1,5 @@
+{
+  "name": "HotelMS - Hotel Real-time Management System",
+  "description": "A modern, responsive frontend interface for hotel room status monitoring and reservation management, featuring color-coded room statuses, filtering, and booking workflows.",
+  "requestFramePermissions": []
+}
